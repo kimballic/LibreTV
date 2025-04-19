@@ -21,6 +21,15 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    zuida: {
+        api: 'https://api.zuidapi.com',
+        name: '最大资源',
+        detail: 'https://zuidafile.com'
+    },
+    mdzy: {
+        api: 'https://www.mdzyapi.com',
+        name: '魔都资源',
+    },
     heimuer: {
         api: 'https://json.heimuer.xyz',
         name: '黑木耳',
@@ -73,10 +82,7 @@ const API_SITES = {
         api: 'https://mozhuazy.com',
         name: '魔爪资源',
     },
-    mdzy: {
-        api: 'https://www.mdzyapi.com',
-        name: '魔都资源',
-    },
+
     ruyi: {
         api: 'https://cj.rycjapi.com',
         name: '如意资源',
